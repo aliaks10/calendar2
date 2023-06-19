@@ -16,10 +16,10 @@ const AppRouter: FC = () => {
     return (
         <>
             <Routes>
-                <Route path="/" element={<Navigate to={`/login`} replace/>}/>
-                <Route path={`/login`} element={<h1>Login</h1>}/>
-                <Route path={`/calendar`} element={<h1>Calendar</h1>}/>
-                <Route path="*" element={<Navigate to="/404" replace/>}/>
+                <Route path='/' element={<Navigate to={"/login"} replace/>}/>
+                <Route path={"/login"} element={<h1>Login</h1>}/>
+                <Route path={"/calendar"} element={<h1>Calendar</h1>}/>
+                <Route path='*' element={<Navigate to="/404" replace/>}/>
             </Routes>
         </>
     );
